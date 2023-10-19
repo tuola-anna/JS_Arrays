@@ -6,3 +6,8 @@ function task1()
     console.log(sum);
 
 }
+
+function isChetn(arr)
+{
+    return arr.every(elem=>elem%2==0);
+}
